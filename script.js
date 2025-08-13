@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   const button = document.querySelector('.buttonHeader');
   const heroSection = document.getElementById('heroSection');
+  const scrollBtn = document.querySelector('.scrollButton');
 
   button.addEventListener('click', function () {
     heroSection.style.display = 'block';
@@ -25,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
   const button = document.querySelector('.buttonHeroStudents');
   const heroSection = document.getElementById('studentsSection');
+  const scrollBtn = document.querySelector('.scrollButton');
 
   button.addEventListener('click', function () {
     heroSection.style.display = 'block';
@@ -49,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
   const button = document.querySelector('.buttonHeroStaff');
   const heroSection = document.getElementById('staffsSection');
+  const scrollBtn = document.querySelector('.scrollButton');
 
   button.addEventListener('click', function () {
     heroSection.style.display = 'block';
@@ -74,6 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
   const button = document.querySelector('.buttonHeroHouses');
   const heroSection = document.getElementById('housesSection');
+  const scrollBtn = document.querySelector('.scrollButton');
 
   button.addEventListener('click', function () {
     heroSection.style.display = 'block';
